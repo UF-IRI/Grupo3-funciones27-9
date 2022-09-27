@@ -1,9 +1,3 @@
 #pragma once
-
-namespace foobar
-{
-    struct Example
-    {
-        int getValue() const;
-    };
-}
+int temperaturaspacientes(float* temperaturas);
+int paroimpar(int num1, int num2);
