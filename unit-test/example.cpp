@@ -14,7 +14,7 @@ TEST(funciones, temperat1)
 }
 TEST(funciones, temperat2)
 {
-	float array_[2]={0,0};
+	float *array_=new float [2];
 
 	array_[0] = 41.0;
 	array_[1] = 36.0;
